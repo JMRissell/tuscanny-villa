@@ -1,0 +1,291 @@
+* {
+	font-family: "Roboto";
+}
+
+span {
+	display: block;
+	margin-top: 5px;
+}
+
+.mainPageHeaderText {
+	color: rgb(110, 110, 110);
+	text-align: center;
+	letter-spacing: 15px;
+	padding-top:20px;
+	margin-bottom: 0;
+}
+ 
+.designLogoText {
+	color: rgb(110, 110, 110);
+	font-family: cursive;
+	text-align: center;
+	padding-bottom: 40px;
+	margin: 0;
+}
+
+.nav {
+	background-color: white;
+}
+.center-nav-text {
+	float: left;
+	font-size: 10px;
+	text-align: center;
+	padding: 15px;
+	padding-left: 28%;
+	background-color: white;
+	color: rgb(124, 124, 124);
+	word-spacing: 30px;
+	letter-spacing: 2px;
+	margin: 0px;
+}
+
+.left-nav-box {
+	font-size: 10px;
+	float: left;
+	text-align: center;
+	padding: 15px;
+	background-color: rgba(53, 204, 193, .8);
+	color: white;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	margin: 0px;
+}
+
+.right-nav-box {
+	font-size: 10px;
+	float: right;
+	text-align: center;
+	padding: 15px;
+	background-color: rgba(73, 179, 255, .8);
+	color: white;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	margin: 0px;
+}
+
+li {
+	text-decoration: none;
+	display: inline;
+}
+
+.div.col-xs-3 {
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.div.col-xs-9 {
+	overflow: hidden;
+	padding: 0px;
+	margin: 0px;
+}
+.img-blank {
+	background-color: white;
+}
+
+.img-one {
+	background-image: url("images/tuscany-villas-sant-anna.jpg"); 
+}
+
+.img-two {
+	background-image: url("images/Versilia.jpg");
+}
+
+.img-three {
+	background-image: url("images/3b-348x348.jpg");
+}
+
+.img-four {
+	background-image: url("images/42-348x348.jpg");
+}
+ 
+.img-five {
+	background-image: url("images/314-348x348.jpg");
+}
+.img-six {
+	background-image: url("images/Villa-Rucellai-Toscani-2750-2-348x348.jpg");
+}
+
+.img-seven {
+	background-image: url("images/Villa-Rucellai-Toscani-2812-2-348x348.jpg");
+}
+
+.img-eight {
+	background-image: url("images/Villa-Vanna-231-348x348.jpg");
+}
+
+.medium-height {
+ 	height: 400px;
+ 	background-repeat: no-repeat;
+ 	background-size: 100% 100%;
+}
+
+.overlayText {
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	background-color: rgba(60, 60, 60, .7);
+	color: white;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.overlayTextWhite {
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	background-color: white;
+	color: rgb(124, 124, 124);
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.overlayTextGreen {
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: white;
+	color: rgba(53, 204, 193, .8);
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 1.7em;
+}
+
+.small-text {
+	font-size: 8px;
+}
+
+.small-text-black {
+	font-size: 10px;
+	color: black;
+}
+
+.price-box {
+	text-align: left;
+	width: 80%;
+	padding: 0px 0px 0px 10px;
+	background-color: rgba(60, 60, 60, .7);
+	color: white;
+	position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.price-box-right {
+	float: right;
+	text-align: center;
+	padding: 15px;
+	background-color: rgba(53, 204, 193, .8);
+	color: white;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	margin: 0px;
+}
+
+.small-text-price {
+	margin: 0;
+	font-size: 8px;
+}
+
+.info-square-header {
+	font-size: 20px;
+	top: 15%;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+	background-color: white;
+	color: rgb(124, 124, 124);
+	position: relative;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.info-square-text {
+	position: relative;
+	padding-top: 10%;
+	font-size: 14px;
+	line-height: 2.0em;
+
+}
+
+.learn-more-button {
+	display: inline;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border: 1px solid;
+	padding:5px;
+	border-radius: 5px;
+	border-color: rgba(53, 204, 193, .8);
+	color: rgba(53, 204, 193, .8);
+}
+
+.img-ourClients {
+
+	background-color: rgba(53, 204, 193, .8);
+}
+
+.clients-text {
+	padding: 30%;
+	border: 1px solid;
+	border-color: rgba(124, 124, 124, .5);
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+.big-number {
+	font-size: 32px;
+	font-style: italic;
+}
+
+.read-all-reviews-button {
+	display: inline;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	border: 1px solid;
+	padding:5px;
+	border-radius: 5px;
+	border-color: rgba(124, 124, 124, .5);
+	color: rgba(124, 124, 124, .5);
+}
+
+.img-seenOn {
+	background-image: url("images/box_partners.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
